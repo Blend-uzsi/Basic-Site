@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Moon Tower Inn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="luxury-hotel.css" />
+  <script src="luxury-hotel.js" defer></script>
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-logo">Hotel Moon Tower Inn</div>
+  </div>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Hotel Moon Tower 
+        Inn</div>
+      <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#dining">Dining</a></li>
+        <li><a href="#amenities">Amenities</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <video autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80">
+          <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <h1 class="headline">Welcome to Hotel Moon Tower Inn</h1>
+        <p class="subtitle">A 3-star oasis in the heart of Jhapa</p>
+        <a href="#rooms" class="cta-btn">Book Now</a>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="rooms-section scroll-animate" id="rooms">
+      <h2 class="section-title">Our Rooms</h2>
+      <div class="rooms-grid">
+        <div class="room-card">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Deluxe Room" />
+          <div class="room-info">
+            <h3>Deluxe Room</h3>
+            <p>King-size bed, marble bath, balcony with garden view.</p>
+          </div>
+        </div>
+        <div class="room-card">
+          <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=800&q=80" alt="Executive Suite" />
+          <div class="room-info">
+            <h3>Executive Suite</h3>
+            <p>Spacious suite, private lounge, complimentary breakfast.</p>
+          </div>
+        </div>
+        <div class="room-card">
+          <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80" alt="Standard Room" />
+          <div class="room-info">
+            <h3>Standard Room</h3>
+            <p>Modern comfort, perfect for business or leisure.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="dining-section scroll-animate" id="dining">
+      <h2 class="section-title">Dining</h2>
+      <div class="menu-tiles">
+        <div class="menu-tile">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Thakali Thali" />
+          <div class="menu-info">
+            <h3>Thakali Thali</h3>
+            <p>Authentic Nepali platter with rice, lentils, and local flavors.</p>
+          </div>
+        </div>
+        <div class="menu-tile">
+          <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=400&q=80" alt="Momo" />
+          <div class="menu-info">
+            <h3>Momo</h3>
+            <p>Steamed dumplings, spicy achar, a Nepali classic.</p>
+          </div>
+        </div>
+        <div class="menu-tile">
+          <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=400&q=80" alt="Chowmein" />
+          <div class="menu-info">
+            <h3>Chowmein</h3>
+            <p>Stir-fried noodles with fresh vegetables and chicken.</p>
+          </div>
+        </div>
+        <div class="menu-tile">
+          <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Biryani" />
+          <div class="menu-info">
+            <h3>Biryani</h3>
+            <p>Fragrant rice, aromatic spices, and your choice of meat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="amenities-section scroll-animate" id="amenities">
+      <h2 class="section-title">Amenities</h2>
+      <div class="amenities-list">
+        <div class="amenity-card"><span>🍲</span> Local Dishes</div>
+        <div class="amenity-card"><span>🛏️</span> Comfortable Rooms</div>
+        <div class="amenity-card"><span>👨‍🍳</span> Dependable Staff</div>
+        <div class="amenity-card"><span>⚡</span> Quick Service</div>
+        <div class="amenity-card"><span>⏰</span> 24 Hour Availability</div>
+      </div>
+    </section>
+    <section class="gallery-section scroll-animate" id="gallery">
+      <h2 class="section-title">Gallery</h2>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Lobby" class="gallery-img" />
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Room" class="gallery-img" />
+        <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=600&q=80" alt="Dining" class="gallery-img" />
+        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=600&q=80" alt="Exterior" class="gallery-img" />
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Suite" class="gallery-img" />
+        <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Pool" class="gallery-img" />
+      </div>
+    </section>
+    <section class="testimonials-section scroll-animate" id="testimonials">
+      <h2 class="section-title">Guest Reviews</h2>
+      <div class="testimonials-carousel">
+        <div class="testimonial-card">
+          <p>“A magical stay! The staff made us feel like royalty.”</p>
+          <span>- Suman, Kathmandu</span>
+        </div>
+        <div class="testimonial-card">
+          <p>“The Thakali Thali was unforgettable. Will return!”</p>
+          <span>- Priya, Biratnagar</span>
+        </div>
+        <div class="testimonial-card">
+          <p>“The infinity pool and spa are world-class.”</p>
+          <span>- Anil, Pokhara</span>
+        </div>
+        <div class="testimonial-card">
+          <p>“Best hotel in Nepal. The rooms are stunning.”</p>
+          <span>- Rina, Ilam</span>
+        </div>
+        <div class="testimonial-card">
+          <p>“Incredible service and beautiful ambiance.”</p>
+          <span>- Deepak & Sunita, Jhapa</span>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section scroll-animate" id="contact">
+      <h2 class="section-title">Contact Us</h2>
+      <form class="contact-form">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit" class="cta-btn">Send Message</button>
+      </form>
+    </section>
+    <section class="facts-section scroll-animate" id="facts">
+      <h2 class="section-title">Why Choose Us?</h2>
+      <div class="facts-grid">
+        <div class="fact-card">
+          <span class="fact-emoji">🏨</span>
+          <div class="fact-number" id="years-number">0</div>
+          <div class="fact-label">Years of Excellence</div>
+          <p>Serving guests with pride and passion for over a decade in Jhapa. Our journey began more than 10 years ago, and we continue to set the standard for hospitality in the region.</p>
+        </div>
+        <div class="fact-card">
+          <span class="fact-emoji">👨‍🍳</span>
+          <div class="fact-number" id="staff-number">0</div>
+          <div class="fact-label">Dedicated Staff</div>
+          <p>Our experienced team of 20 staff members ensures your stay is comfortable, memorable, and filled with warmth. We believe in service from the heart!</p>
+        </div>
+        <div class="fact-card">
+          <span class="fact-emoji">🛏️</span>
+          <div class="fact-number" id="rooms-number">0</div>
+          <div class="fact-label">Luxurious Rooms</div>
+          <p>Enjoy the comfort of our 24 well-appointed rooms, designed to provide a relaxing and luxurious experience for every guest.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <button id="scrollToTop" aria-label="Scroll to top">↑</button>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Hotel Jhapa</div>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" /></a>
+        <a href="#" aria-label="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" /></a>
+        <a href="#" aria-label="Twitter"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" /></a>
+      </div>
+      <div class="footer-contact">
+        <span>Jhapa, Nepal</span> | <span>+977-123456789</span> | <span>info@hoteljhapa.com</span>
+      </div>
+    </div>
+    <div class="footer-copy">&copy; 2025 Hotel Jhapa. All rights reserved.</div>
+  </footer>
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" src="" alt="Gallery Full" />
+  </div>
+</body>
+</html>
