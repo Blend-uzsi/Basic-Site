@@ -1,5 +1,4 @@
-// Copilot, add luxury-level interactivity for the luxury hotel homepage
-// - Smooth scroll, nav toggle, section animations, lightbox, scroll-to-top, button effects, intro animation
+
 
 document.addEventListener('DOMContentLoaded', function () {
   // Loader fade out
